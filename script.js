@@ -30,19 +30,19 @@ let fig3 = console.log(8 < 3);
 4 == '4' == true
 4 === '4' == false
 
-let python = "python".lenght;
-let jargon = "jargon".lenght;
+let python = "python".length;
+let jargon = "jargon".length;
 console.log(python != jargon)
 
-4 > 3 && 10 < 12 == false 
+4 > 3 && 10 < 12 == true
 4 > 3 && 10 > 12 == false
 4 > 3 || 10 < 12 == true
 4 > 3 || 10 > 12 == false
 !(4 > 3) == false
 !(4 < 3) == true
-!(false) == NaN
+!(false) == true
 !(4 > 3 && 10 < 12) ==false
-!(4 > 3 && 10 > 12) == false
+!(4 > 3 && 10 > 12) == true
 !(4 === '4') == true 
 
 let he = "python";
